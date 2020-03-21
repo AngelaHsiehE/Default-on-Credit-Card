@@ -4,11 +4,14 @@
 This project is to solve the problem of increase in customer default rates, which causes revenue and customer loss for credit card companies. The loss can be limited if credit card companies can pre-qualify customers of low risk and avoid those that are likely to default on payment. In this project, we'll identify the target groups with low and high risk of defaulting on credit card, as well as minimize the loss for credit card companies by minimizing the number of false negatives in our prediction.     
 
 ## Exploratory Data Analysis
-In this section, we'll investigate the relationship between customers' demographic variables, payment history, bill amount, payment amount, and their chances of defaulting on payment. Therefore, we can identify the features that are likely to be good predictors. Finally, we'll use feature engineering techniques to normalize the numerical features. 
+In this section, we investigated the relationship between customers' demographic variables, payment history, bill amount, payment amount, and their chances of defaulting on payment. The results showed that customers' credit limit, payment history and payment amount seemed to be good predictors. Customers who have low credit limit, make small amount of monthly payment and use revolving credit or delay payment by 1-2 months are the high risk group. When we look at customers' demographic variables, single women with a college degree or higher has the highest chances of defaulting on payment.     
 
 ## Model Selection: Logisitc Regression And Random Forest 
+
+After exploring t
+
 ## Actionable Recommendations
-According to our model and the exploratory data analysis, we can identify the customers with high risk of defaulting on payment based on the below attributes:
+According to our model and the exploratory data analysis, we can identify the customers of high risk of defaulting on payment with these predictors:
 
 1. Payment amount
 2. Credit limit
